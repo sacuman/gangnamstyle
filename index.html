@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gangnam Style | Reservation</title>
+  <meta name="description" content="Book your table at Gangnam Style Korean BBQ in Morley. Korean BBQ and hot pot reservations made easy.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <div class="logo">Gangnam Style</div>
+      <nav class="nav">
+        <a href="#reservation">Book</a>
+        <a href="#visit">Visit</a>
+        <a href="#hours">Hours</a>
+        <a href="#map">Map</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <p class="hero-tag">Korean BBQ & Hot Pot in Morley</p>
+      <h1>Reserve Your Table Easily</h1>
+      <p class="hero-text">
+        Book your table for Korean BBQ and hot pot. Quick booking, easy contact,
+        and mobile-friendly access for your customers.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#reservation" class="btn btn-primary">Book Now</a>
+        <a href="tel:0416795345" class="btn btn-secondary">Call Now</a>
+        <a href="sms:0416795345" class="btn btn-secondary">SMS Booking</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="reservation section" id="reservation">
+    <div class="container">
+      <h2>Reservation Request</h2>
+      <p class="section-text">
+        Please send us your booking request. We will confirm your reservation as soon as possible.
+      </p>
+      <p class="section-text">
+        Online reservations are available during selected booking hours. For urgent or same-day bookings, please call or text us.
+      </p>
+
+      <form id="reservation-form" class="reservation-form">
+        <input
+          type="text"
+          name="name"
+          placeholder="Your Name"
+          autocomplete="name"
+          required
+        >
+
+        <input
+          type="tel"
+          name="phone"
+          placeholder="Phone Number"
+          autocomplete="tel"
+          inputmode="tel"
+          required
+        >
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          autocomplete="email"
+          required
+        >
+
+        <input
+          type="date"
+          name="date"
+          id="booking-date"
+          required
+        >
+
+        <select name="time" id="booking-time" required>
+          <option value="">Select a time</option>
+        </select>
+
+        <input
+          type="number"
+          name="guests"
+          placeholder="Number of Guests"
+          min="1"
+          max="30"
+          step="1"
+          required
+        >
+
+        <textarea
+          name="message"
+          placeholder="Special request (birthday, allergy, high chair, large group, etc.)"
+        ></textarea>
+
+        <button type="submit">Send Request</button>
+        <p id="form-status" class="form-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+
+  <section class="contact-strip section" id="visit">
+    <div class="container contact-strip-grid">
+
+      <div class="info-panel contact-panel">
+        <p class="panel-label">Quick Contact</p>
+        <h2>Call or Message Us</h2>
+        <p class="panel-text">
+          For same-day bookings, urgent enquiries, or large group reservations,
+          please call or send us a text message.
+        </p>
+
+        <div class="contact-actions">
+          <a href="tel:0416795345" class="btn btn-primary">Call 0416 795 345</a>
+          <a href="sms:0416795345" class="btn btn-secondary">SMS Booking</a>
+        </div>
+
+        <p class="panel-note">
+          For large bookings, please include your preferred date, time, and number of guests.
+        </p>
+      </div>
+
+      <div class="info-panel hours-panel" id="hours">
+        <p class="panel-label">Opening Hours</p>
+        <h2>When We’re Open</h2>
+
+        <div class="hours-list">
+          <div class="hours-item">
+            <span class="day">Mon, Wed, Thu, Fri</span>
+            <span class="time">5:00 PM – 10:00 PM</span>
+          </div>
+
+          <div class="hours-item">
+            <span class="day">Tuesday</span>
+            <span class="time closed">Closed</span>
+          </div>
+
+          <div class="hours-item">
+            <span class="day">Saturday & Sunday</span>
+            <span class="time">11:30 AM – 3:00 PM</span>
+          </div>
+
+          <div class="hours-item">
+            <span class="day">Weekend Dinner</span>
+            <span class="time">5:00 PM – 10:00 PM</span>
+          </div>
+        </div>
+
+        <p class="panel-note">
+          Online reservations are available during selected booking hours.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="map-section section" id="map">
+    <div class="container">
+      <div class="map-header">
+        <p class="panel-label">Find Us</p>
+        <h2>Visit Gangnam Style</h2>
+        <p class="section-text map-text">
+          We are located in Morley. Use Google Maps for directions or call us if you need help finding the restaurant.
+        </p>
+      </div>
+
+      <div class="map-layout">
+        <div class="map-box">
+          <iframe
+            src="https://maps.google.com/maps?q=1/263%20Walter%20Rd%20W,%20Morley%20WA%206062&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <div class="map-info">
+          <p class="panel-label">Location</p>
+          <h3>Gangnam Style Korean BBQ</h3>
+          <p>1/263 Walter Rd W, Morley WA 6062</p>
+          <p>Perth, Western Australia</p>
+
+          <div class="map-actions">
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=1%2F263%20Walter%20Rd%20W%2C%20Morley%20WA%206062"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-primary">
+              Open in Google Maps
+            </a>
+          </div>
+
+          <p class="panel-note">
+            Easy and convenient parking available behind the restaurant near the Morley sports facilities.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-bottom">
+      <p>© 2026 Gangnam Style Korean BBQ. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
